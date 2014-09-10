@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ padding:0px; margin:0px;}
+.clear{ clear:both}
+body{}
+.navbar-wine { background:#853434}
+div.banner-wrapper{ width:auto; height:200px; background: #f0eceb; text-align:center; padding:15px}
+.search_field {
+  background: none repeat scroll 0 0 #380f10 !important;
+  border: medium none !important;
+  border-radius: 4px 0 0 4px !important;
+  color: #fff !important;
+  float: left !important;
+  font-size: 14px !important;
+  height: 33px !important;
+  line-height: 24px !important;
+  padding: 7px 10px !important;
+  width: 269px !important;
+}
+.rearch_btn {
+  background: url("../img/1410165957_search-32.png") no-repeat scroll center center #380f10;
+  border: 0 none;
+  border-radius: 0 4px 4px 0;
+  display: inline-block;
+  height: 33px;
+  width: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Twitter Bootstrap</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+<div class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<h4 class="modal title">Modal Title</h4>
+</div>
+<div class="modal-body">
+<p>One Fine Body&hellip;</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary">Save Changes</button>
+</div>
+</div>
+</div>
+</div>
+
+<!--button trigger model-->
+
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mymodal">Launch Demo Model</button>
+
+<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<h4 class="modal-title" id="myModalLabel">Modal Title</h4>
+</div>
+<div class="modal-body"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary">Save Changes</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--large modal-->
+<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small Modal</button>
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+</div>
+</div>
+</div>
+
+<!---->
+<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="popover title" data-container="And here's some amaging content. It's very engaging. Right?">Click to toggle popover button</button>
+
+<!---->
+<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="dbhfdj kijfoierj rhjoiehj oijoeij oijoijoi">Popover on top</button>
+
+<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="dbhfdj kijfoierj rhjoiehj oijoeij oijoijoi">Popover on right</button>
+
+<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="dbhfdj kijfoierj rhjoiehj oijoeij oijoijoi">Popover on bottom</button>
+
+<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="dbhfdj kijfoierj rhjoiehj oijoeij oijoijoi">Popover on left</button>
+
+<button type="button" class="btn btn-lg btn-danger popover-dismiss" data-toggle="popover" title="Dismissible popover" data-content="And here's some amaging content. It's very engaging. Right?">Dismissible popover</button>
+
+$(.'popover-dismiss').popover
+
+<div class="dropdown">
+<a data-toggle="dropdown" href="#">Dropdown Trigger</a>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel"></ul>
+</div>
+
+<div class="dropdown">
+<a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="\page.html">DropDown<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
